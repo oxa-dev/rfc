@@ -71,6 +71,7 @@ project:
     - id: openrxiv
       name: openRxiv
       url: https://openrxiv.org
+      ror: https://ror.org/03vc1wb14
     - id: stencila
       name: Stencila
       url: https://stenci.la
