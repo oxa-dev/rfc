@@ -1,0 +1,78 @@
+version: 1
+project:
+  license: CC-BY-4.0
+  open_access: true
+  venue:
+    title: Continuous Science Foundation
+    url: https://continuousfoundation.org
+  subject: Open Exchange Architecture
+  references:
+    oxa: https://oxa.dev
+  github: https://github.com/oxa-dev/rfc
+  abbreviations:
+    OXA: Open Exchange Architecture
+    RFC: Request For Comment
+    AST: Abstract Syntax Tree
+    JATS: Journal Article Tag Suite
+    CC: Creative Commons
+    JSON: JavaScript Object Notation
+    PDF: Portable Document Format
+    HTML: Hypertext Markup Language
+    CSS: Cascading Style Sheets
+    XML: Extensible Markup Language
+    ROR: Research Organization Registry
+    ORCID: Open Researcher and Contributor ID
+  contributors:
+    - id: rowanc1
+      name: Rowan Cockett
+      github: rowanc1
+      orcid: 0000-0002-7859-8394
+      affiliations:
+        - id: curvenote
+        - id: csf
+      email: rowan@curvenote.com
+    - id: nokome
+      name: Nokome Bentley
+      email: nokome@stenci.la
+      orcid: 0000-0003-1608-7967
+      github: nokome
+      affiliations:
+        - id: stencila
+    - id: tracy
+      name: Tracy Teal
+      email: tracy@openrxiv.org
+      orcid: 0000-0002-9180-9598
+      github: tracykteal
+      affiliations:
+        - id: openrxiv
+    - id: fwkoch
+      name: Franklin Koch
+      github: fwkoch
+      email: franklin@curvenote.com
+      affiliations:
+        - id: curvenote
+      orcid: 0000-0002-6393-7058
+    - id: stevejpurves
+      name: Steve Purves
+      github: stevejpurves
+      orcid: 0000-0002-0760-5497
+      affiliations:
+        - id: curvenote
+      email: steve@curvenote.com
+  affiliations:
+    - id: csf
+      name: Continuous Science Foundation
+    - id: curvenote
+      name: Curvenote Inc.
+      country: Canada
+      ror: https://ror.org/02mz0e468
+      email: support@curvenote.com
+      url: https://curvenote.com
+    - id: openrxiv
+      name: openRxiv
+      url: https://openrxiv.org
+    - id: stencila
+      name: Stencila
+      url: https://stenci.la
+site:
+  template: article-theme
