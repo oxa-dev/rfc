@@ -2,7 +2,7 @@ name: RFC Content Previews and Submissions
 on:
   pull_request_target:
     branches: ["main"]
-    types: ["labeled"]
+    types: [labeled, opened, synchronize, reopened]
 permissions:
   contents: read
   pull-requests: write
