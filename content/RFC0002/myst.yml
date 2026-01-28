@@ -1,0 +1,11 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ../rfc.yml
+project:
+  id: 71ade292-33e0-4dd7-9cdf-f8a921fadeb7
+  short_title: OXA Schema Node Structure
+  date: 2026-01-28
+  authors:
+    - rowanc1
+    - nokome
