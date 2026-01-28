@@ -1,10 +1,8 @@
 ---
 title: OXA RFC Process and Initial Scope
+abstract: |
+  This document establishes the **Request for Comment (RFC) process** for the Open Exchange Architecture (OXA) and defines the **initial goals and scope** for early OXA work. It is intentionally procedural rather than technical. Future RFCs will introduce and evolve specific schemas, containers, and linking models. The intent of this RFC is to set expectations for _how_ we work together before prescribing _what_ the architecture looks like.
 ---
-
-This document establishes the **Request for Comment (RFC) process** for the Open Exchange Architecture (OXA) and defines the **initial goals and scope** for early OXA work. It is intentionally procedural rather than technical. Future RFCs will introduce and evolve specific schemas, containers, and linking models.
-
-The intent of this RFC is to set expectations for _how_ we work together before prescribing _what_ the architecture looks like.
 
 ## Motivation
 
