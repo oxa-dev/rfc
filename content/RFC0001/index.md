@@ -48,7 +48,7 @@ An RFC is **not**:
 
 This RFC does _not_ define the technical structure of OXA. However, for the benefit of orienting early discussions, early RFCs are expected to focus on three foundational layers:
 
-### **1\. Container**
+### 1. Container
 
 OXA is intended to represent whole and complete research artifacts, not just narrative text and metadata (e.g. JATS). A container should be able to express a research output as it was produced and intended to be understood: narrative, figures, methods, code, and computational elements together, while still allowing components to link out to external datasets, repositories, or services where appropriate. Rather than treating computation, data, and code as supplementary or external by default, OXA should treat them as first-class, addressable components of the research artifact.
 
@@ -58,7 +58,7 @@ Examples of how a scientific artifact is packaged for exchange and preservation 
 - Addressing versioning and technical access to the components (e.g. file system, cloud-buckets)
 - Compatibility with existing packaging approaches (e.g. FTP, Zip, Git, MECA)
 
-### **2\. Structure**
+### 2. Structure
 
 OXA will describe how content and metadata are represented in a structured form through schemas. Schema design in OXA will explicitly navigate the trade‑offs between **semantic purity** and **structural utility**. Highly semantic models improve conceptual clarity and alignment across systems, but can become brittle or impractical for real authoring, conversion, and rendering workflows. Highly structural models are easier to implement and transform, but risk losing meaning.
 
@@ -76,7 +76,7 @@ Existing sources of inspiration include:
 - unified-style ASTs (tree-based document models)
 - Pandoc JSON, Stencila JSON and MyST Markdown AST
 
-### **3\. Linking**
+### 3. Linking
 
 **Granular identification** and linking is a core motivation for OXA: components within a document should be individually identifiable, referenceable, and reusable across systems, even as documents evolve. This enables citation, attribution, review, and reuse at the level of _parts_, not just whole articles.
 
