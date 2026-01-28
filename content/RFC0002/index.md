@@ -1,10 +1,8 @@
 ---
 title: OXA Schema Node Structure
+abstract: |
+  This RFC proposes the **base structural shape** for OXA schemas: a small set of common fields shared by all nodes that enables consistent traversal, transformation, and validation across tools. The goal is to define a predictable "tree contract" for OXA content while leaving room for semantic growth over time.
 ---
-
-This RFC proposes the **base structural shape** for OXA schemas: a small set of common fields shared by all nodes that enables consistent traversal, transformation, and validation across tools.
-
-The goal is to define a predictable "tree contract" for OXA content while leaving room for semantic growth over time.
 
 ## Context
 
