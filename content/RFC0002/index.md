@@ -151,3 +151,7 @@ If accepted, this RFC establishes the minimal, shared node structure for OXA sch
 - The common base node fields beyond `type/children/value/data` (e.g., `id`, `classes`)
 - Document-level roots and metadata conventions
 - Validation rules and schema versioning
+
+## Acknowledgements
+
+The Open Exchange Architecture was started in October 2025 at the _From Tools to Adoption Workshop_ [@10.62329/kcep6732], run by Tracy Teal and Rowan Cockett supported by The Navigation Fund [@10.71707/GN91-KA32]. There were significant contributions to this content structure and the decisions articulated in this RFC from Carlos Scheidegger, Franklin Koch, Rose Reatherford, Rowan Cockett, and Nokome Bentley.
