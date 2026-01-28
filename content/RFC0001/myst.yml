@@ -4,7 +4,7 @@ extends:
   - ../rfc.yml
 project:
   id: dcef0465-d2b8-4886-95bd-528a070ff024
-  short_title: Bootstrap Process
+  short_title: OXA RFC Process and Initial Scope
   date: 2026-01-01
   authors:
     - rowanc1
