@@ -14,7 +14,6 @@ By defining these nodes early, OXA establishes a predictable baseline that:
 
 - Enables generic traversal and transformation
 - Supports round-tripping across ecosystems
-- Minimizes early bikeshedding
 - Creates a clear extension path for future node types
 
 ## Proposed Core Node Types
