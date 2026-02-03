@@ -1,0 +1,11 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ../rfc.yml
+project:
+  id: 018d2b38-553f-4f4c-b9a3-9368c6b4f2e9
+  short_title: Core Node Types and Naming Conventions
+  date: 2026-02-02
+  authors:
+    - rowanc1
+    - nokome
