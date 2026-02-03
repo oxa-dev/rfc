@@ -1,10 +1,12 @@
 ---
 title: Core Node Types and Naming Conventions
+abstract: |
+  Defines the initial set of non-controversial OXA node types (block and inline) and establishes a naming convention so tooling can rely on a stable core.
 ---
 
 This RFC defines the **initial set of non-controversial OXA node types** and establishes a **naming convention** for distinguishing block-level and inline-level content.
 
-The goal of this RFC is not to be exhaustive, but to lock down the _boring, obvious, and widely shared_ parts of document structure so that tooling can rely on a stable core while more complex or contested structures are addressed in later RFCs.Context
+The goal of this RFC is not to be exhaustive, but to lock down the _boring, obvious, and widely shared_ parts of document structure so that tooling can rely on a stable core while more complex or contested structures are addressed in later RFCs.
 
 Across authoring and publishing systems — including word processors, Markdown dialects, HTML, Pandoc, MyST, Quarto, Stencila, JATS — there is strong convergence around a small set of structural elements. These elements form the backbone of narrative documents and are consistently represented as a traversable tree of blocks and inline content.
 
@@ -259,6 +261,40 @@ interface Strong extends Parent {
 ```
 
 **Strong** represents strong importance or emphasis.
+
+#### `Superscript`
+
+```typescript
+interface Superscript extends Parent {
+  type: 'Superscript';
+  children: [Inline];
+}
+```
+
+**Superscript** represents content that should be rendered above the baseline (e.g. exponents, ordinal suffixes).
+
+Example:
+
+```yaml
+{ type: 'Superscript', children: [{ type: 'Text', value: '2' }] }
+```
+
+#### `Subscript`
+
+```typescript
+interface Subscript extends Parent {
+  type: 'Subscript';
+  children: [Inline];
+}
+```
+
+**Subscript** represents content that should be rendered below the baseline (e.g. chemical formulae, variable indices).
+
+Example:
+
+```yaml
+{ type: 'Subscript', children: [{ type: 'Text', value: '2' }] }
+```
 
 #### `InlineCode`
 
