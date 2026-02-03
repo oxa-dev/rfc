@@ -62,6 +62,7 @@ project:
   affiliations:
     - id: csf
       name: Continuous Science Foundation
+      ror: https://ror.org/00zwsrq61
     - id: curvenote
       name: Curvenote Inc.
       country: Canada
