@@ -63,6 +63,7 @@ Several conventions were considered:
 - `BlockCode` / `InlineCode`
 - `CodeBlock` / `CodeInline`
 - `Code` / `InlineCode`
+- `CodeListing` / `Code`
 
 Each option has trade-offs.
 
