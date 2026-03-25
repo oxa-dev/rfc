@@ -344,6 +344,6 @@ Acceptance of this RFC establishes the citation and bibliography vocabulary for 
 - **Pandoc Citation Syntax** — <https://pandoc.org/MANUAL.html#citation-syntax>
 - **JATS `<element-citation>`** — <https://jats.nlm.nih.gov/archiving/tag-library/1.3/element/element-citation.html>
 - **rehype-citation parse-citation.js** — <https://github.com/timlrx/rehype-citation/blob/main/src/parse-citation.js#L139>
-- **CiTO (Citation Typing Ontology)** — <http://purl.org/spar/cito>
+- **CiTO (Citation Typing Ontology)** — <https://sparontologies.github.io/cito/current/cito.html>
 
 [^natbib-support]: Expanded author lists (e.g. "Jones, Baker, and Williams" instead of "Jones et al.") are intentionally not modeled as a `display` value. Per-citation author expansion adds complexity to the schema for a relatively rare need. Instead, use `children` to override the display text when full author names are required for a specific citation, or configure the CSL style's `et-al-min` / `et-al-use-first` settings to control author abbreviation thresholds at render time.
