@@ -28,7 +28,7 @@ A single `Cite` node is insufficient — citations often appear in groups with s
 
 ## Proposed Node Types
 
-### `Cite`
+### Cite
 
 An **inline** node representing a single citation to a bibliographic entry.
 
@@ -88,7 +88,7 @@ Most citation systems treat all citations as equivalent — a reference is a ref
 
 The `intent` field is optional, it is metadata about the _relationship_ between the citing and cited work.
 
-### `CiteGroup`
+### CiteGroup
 
 An **inline** container that groups multiple `Cite` nodes with shared display semantics.
 
@@ -119,7 +119,7 @@ Using `kind: 'narrative' | 'parenthetical'` rather than `parenthetical: boolean`
 The `CiteGroup` pattern of grouping inline references with shared display semantics may be generalized in a future RFC to cover other cross-reference types — for example, grouped figure references like "(Figures 1a, 2)" or combined figure-and-table references like "(Figure 1; Table 3)". The current scope is limited to bibliographic citations.
 :::
 
-### `Reference`
+### Reference
 
 A **block-level** node representing a bibliographic record.
 
