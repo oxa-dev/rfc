@@ -1,0 +1,11 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ../rfc.yml
+project:
+  id: 4c226651-0080-4a91-8e5f-97506506a33f
+  short_title: Citations
+  date: 2026-03-25
+  authors:
+    - rowanc1
+    - fwkoch
