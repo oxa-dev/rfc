@@ -1,0 +1,10 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ../rfc.yml
+project:
+  id: 85aeebe9-1e26-4293-bfa0-b463c0ce7589
+  short_title: Images and Media
+  date: 2026-03-26
+  authors:
+    - rowanc1
