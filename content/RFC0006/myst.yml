@@ -1,0 +1,10 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - ../rfc.yml
+project:
+  id: fcefbe87-7299-4877-8685-e16ff2862e74
+  short_title: Metadata
+  date: 2026-04-22
+  authors:
+    - rowanc1
